@@ -65,7 +65,8 @@ exports.stkpush = (req, res) => {
         PartyA: phone,
         PartyB: shortcode,
         PhoneNumber: phone,
-        CallBackURL: "https://mydomain.com/path",
+        // CallBackURL: "https://mydomain.com/path",
+        CallBackURL: "https://beautiful-cannoli-3b9505.netlify.app/",
         AccountReference: "Eleazar store",
         TransactionDesc: "Lipa na M-Pesa" 
     }

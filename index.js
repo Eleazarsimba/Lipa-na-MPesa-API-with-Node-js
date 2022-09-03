@@ -6,7 +6,8 @@ require('dotenv').config();
 const port = process.env.PORT;
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    // origin: 'http://localhost:3000',
+    origin: 'https://beautiful-cannoli-3b9505.netlify.app/',
     optionsSuccessStatus: 200
   }
 app.use(cors(corsOptions));
